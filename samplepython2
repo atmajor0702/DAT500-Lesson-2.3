@@ -1,0 +1,6 @@
+user_num_classes = int(input('Enter the number of classes you plan o take:\n'))
+cost_per_credit =float(input('Enter cost per credit hour:\n'))
+credits = 3 * user_num_classes
+total_cost = credits * cost_per_credit
+
+print('For {} classes, you will be taking {} credits. At ${:.2f} per credit, the total amount of tuition will be ${:.2f}.\n'.format(user_num_classes, credits, cost_per_credit, total_cost))
